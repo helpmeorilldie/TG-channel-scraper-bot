@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Venice Scraper</title>
+<style>
+  :root { color-scheme: dark }
+  * { box-sizing: border-box }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: radial-gradient(circle at 30% 20%, #16233a, #0a0d14 60%);
+    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, sans-serif;
+    color: #e6ebf5; padding: 32px;
+  }
+  main { max-width: 620px }
+  h1 { font-size: 2.1rem; margin: 0 0 8px; letter-spacing: -.02em }
+  p.lead { color: #9fb0c9; margin: 0 0 28px }
+  ul { list-style: none; padding: 0; margin: 0 0 28px; display: grid; gap: 10px }
+  li {
+    padding: 14px 16px; border-radius: 12px; background: #121a26;
+    border: 1px solid #1e2b3d; display: flex; justify-content: space-between; gap: 16px;
+  }
+  li b { color: #6fa8ff; font-weight: 600 }
+  li span { color: #9fb0c9; font-size: .9rem; text-align: right }
+  a.cta {
+    display: inline-block; padding: 13px 26px; border-radius: 10px;
+    background: #2f6fed; color: #fff; text-decoration: none; font-weight: 600;
+  }
+  a.cta:hover { background: #3d7cf7 }
+  footer { margin-top: 28px; font-size: .82rem; color: #64748b }
+</style>
+</head>
+<body>
+<main>
+  <h1>Telegram member scraper</h1>
+  <p class="lead">Export channel member lists — user id, username, name — as CSV, straight from your own account.</p>
+  <ul>
+    <li><b>Free</b><span>200 members / day · 6 per 10 s</span></li>
+    <li><b>Premium · ₹39</b><span>800 members / day · 20 per 10 s</span></li>
+    <li><b>Premium Plus · ₹69</b><span>1800 members / day · 25 per 10 s</span></li>
+    <li><b>Premium Max · ₹99</b><span>Unlimited · ~83 per 10 s</span></li>
+  </ul>
+  <a class="cta" href="https://t.me/your_bot_username">Open the bot</a>
+  <footer>UPI only · manual activation · sessions encrypted at rest</footer>
+</main>
+</body>
+</html>
