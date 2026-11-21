@@ -1,0 +1,8 @@
+.env
+.session_key
+bot.db
+data/
+__pycache__/
+*.pyc
+venv/
+.venv/
